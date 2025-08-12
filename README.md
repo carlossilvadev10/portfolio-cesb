@@ -50,7 +50,7 @@ Sigue estos pasos para clonar y ejecutar el proyecto en tu máquina local:
 2. **Entra en el directorio del proyecto:**
 
    ```bash
-   cd event-horizont
+   cd portfolio-cesb
    ```
 
 3. **Instala las dependencias necesarias:**
