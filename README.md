@@ -1,6 +1,6 @@
 # 💼 Portfolio CESB
 
-[![Portfolio CESB](./public/image-preview.png)](https://tu-portafolio-link.com)
+[![Portfolio CESB](./public/image-preview.png)](https://portfolio-cesb.netlify.app)
 
 Bienvenido a **Portfolio CESB**, mi espacio digital donde presento proyectos desarrollados con pasión por el diseño y la tecnología, este portafolio es una muestra de mis habilidades en **desarrollo frontend y full stack**, combinando interfaces modernas con código optimizado y funcional, cada sección está pensada para ofrecer una navegación fluida y mostrar el valor de cada proyecto, desde **landing pages interactivas** hasta **aplicaciones web completas**.
 
@@ -32,7 +32,7 @@ Bienvenido a **Portfolio CESB**, mi espacio digital donde presento proyectos des
 ## 🛠️ Tecnologías Utilizadas 👨‍💻
 
 | HTML | CSS | JavaScript | React | Tailwind CSS | Next.js | Node.js |
-|------|-----|------------|-------|--------------|---------|---------|---------------|
+|------|-----|------------|-------|--------------|---------|---------|
 | ![HTML](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg) | ![CSS](https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg) | ![JavaScript](https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg) | ![React](https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg) | ![TailwindCSS](https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg) | ![Next.js](https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg) | ![Node.js](https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg) |
 
 ---
