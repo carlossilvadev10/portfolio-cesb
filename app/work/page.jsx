@@ -59,11 +59,22 @@ const projects = [
     },
     {
         id: 5,
+        category: "frontend",
+        title: "Nike Store - Tienda Online Deportiva",
+        description: "Landing page moderna e intuitiva desarrollada con React y Tailwind CSS. Presenta una tienda online inspirada en Nike, enfocada en resaltar productos deportivos con diseño responsivo, alto rendimiento y una experiencia de usuario optimizada.",
+        image: "/assets/work/thumb5.png",
+        alt: "project-5",
+        link: "https://nike-store-sport.vercel.app/",
+        github: "https://github.com/carlossilvadev10/nike-store",
+        tech: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"]
+    },
+    {
+        id: 6,
         category: "full stack",
         title: "Mesa de Partes – Sistema Administrativo",
         description: "Aplicación web full stack desarrollada en PHP para gestionar trámites y documentación institucional.",
-        image: "/assets/work/thumb5.png",
-        alt: "project-5",
+        image: "/assets/work/thumb6.png",
+        alt: "project-6",
         link: "#",
         github: "https://github.com/carlossilvadev10/SistemaMesadePartesUNJFSC",
         tech: ["HTML", "CSS", "JavaScript", "PHP", "MySQL" ]
