@@ -70,11 +70,22 @@ const projects = [
     },
     {
         id: 6,
+        category: "frontend",
+        title: "Fit Physique - Plataforma Fitness Motivacional",
+        description: "Landing page moderna y motivadora desarrollada con React, Tailwind CSS y Next.js, que presenta rutinas, productos y contenido fitness para inspirar a los usuarios a alcanzar su mejor versión.",
+        image: "/assets/work/thumb6.png",
+        alt: "project-6",
+        link: "https://fit-physique-phi.vercel.app/",
+        github: "https://github.com/carlossilvadev10/fit-physique",
+        tech: ["HTML", "CSS", "JavaScript", "React", "TypeScript", "Tailwind CSS", "Next.js"]
+    },
+    {
+        id: 7,
         category: "full stack",
         title: "Mesa de Partes – Sistema Administrativo",
         description: "Aplicación web full stack desarrollada en PHP para gestionar trámites y documentación institucional.",
-        image: "/assets/work/thumb6.png",
-        alt: "project-6",
+        image: "/assets/work/thumb7.png",
+        alt: "project-7",
         link: "#",
         github: "https://github.com/carlossilvadev10/SistemaMesadePartesUNJFSC",
         tech: ["HTML", "CSS", "JavaScript", "PHP", "MySQL" ]

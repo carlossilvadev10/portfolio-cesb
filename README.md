@@ -21,19 +21,20 @@ Bienvenido a **Portfolio CESB**, mi espacio digital donde presento proyectos des
 
 | Proyecto | Descripción | Tecnologías |
 |----------|-------------|-------------|
-| **EShop CESB** | Landing page moderna para tienda de tecnología. | React, Tailwind CSS |
+| **EShop CESB** | Tienda comercial de tecnología con experiencia de usuario optimizada. | React, Tailwind CSS |
 | **Event Horizont** | Plataforma para descubrir eventos y experiencias. | React, Tailwind CSS, Next.js |
 | **Tripi Travel** | Portal de viajes con reservas y alojamiento. | React, Tailwind CSS, Next.js, TypeScript |
 | **Shop Cart** | Página de ventas de productos deportivos y para el hogar. | React, Bootstrap, Sass |
+| **Fit Physique** | Gimnasio online con clases, rutinas, productos y consejos fitness. | React, Tailwind CSS, Next.js, TypeScript |
 | **Mesa de Partes** | Sistema administrativo full stack para gestión documental. | PHP, MySQL |
 
 ---
 
 ## 🛠️ Tecnologías Utilizadas 👨‍💻
 
-| HTML | CSS | JavaScript | React | Tailwind CSS | Next.js | Node.js |
-|------|-----|------------|-------|--------------|---------|---------|
-| ![HTML](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg) | ![CSS](https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg) | ![JavaScript](https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg) | ![React](https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg) | ![TailwindCSS](https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg) | ![Next.js](https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg) | ![Node.js](https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg) |
+| HTML | CSS | JavaScript | React | Tailwind CSS | Next.js | Node.js | ESLint |
+|------|-----|------------|-------|--------------|---------|---------|--------|
+| ![HTML](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg) | ![CSS](https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg) | ![JavaScript](https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg) | ![React](https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg) | ![TailwindCSS](https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg) | ![Next.js](https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg) | ![Node.js](https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg) | ![ESLint](https://raw.githubusercontent.com/devicons/devicon/master/icons/eslint/eslint-original.svg) |
 
 ---
 
