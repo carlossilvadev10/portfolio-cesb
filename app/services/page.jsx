@@ -6,47 +6,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import { MdOutlineArrowOutward, MdArrowRightAlt } from "react-icons/md"
 import Image from "next/image";
+import Link from "next/link";
+import { services } from "../../lib/services";
 import "swiper/css";
 import "swiper/css/pagination";
-
-const services = [
-  {
-    icon: "/assets/services/frontend.svg",
-    alt: "frontend-icon",
-    href: "",
-    title: "Desarrollo frontend",
-  },
-  {
-    icon: "/assets/services/backend.svg",
-    alt: "backend-icon",
-    href: "",
-    title: "Desarrollo backend",
-  },
-  {
-    icon: "/assets/services/fullstack.png",
-    alt: "fullstack-icon",
-    href: "",
-    title: "Desarrollo full stack",
-  },
-  {
-    icon: "/assets/services/design.svg",
-    alt: "design-icon",
-    href: "",
-    title: "Diseño UX/UI",
-  },
-  {
-    icon: "/assets/services/seo.svg",
-    alt: "seo-icon",
-    href: "",
-    title: "Optimización SEO",
-  },
-  {
-    icon: "/assets/services/video.svg",
-    alt: "video-icon",
-    href: "",
-    title: "Producción de videos",
-  }
-]
 
 const Services = () => {
   return (
@@ -66,15 +29,22 @@ const Services = () => {
           {
             services.map((service, i) => (
               <SwiperSlide key = {i}>
-                <div className = "bg-secondary/90 w-full h-[284px] rounded-[20px] px-[30px] py-[40px] flex flex-col justify-between">
-                  <div className = "flex items-center justify-between mb-12">
-                    <Image src = {service.icon} alt = {service.alt} width = {40} height = {40} className = "no-highlight" />
-                    <div className = "w-12 h-12 bg-accent rounded-full flex items-center justify-center cursor-pointer text-2xl hover:rotate-45 transition-all">
-                      <MdOutlineArrowOutward />
+                <div className = "bg-secondary/90 w-full h-[284px] rounded-[20px] px-[30px] py-[30px] flex flex-col justify-between">
+                  <div className = "flex items-center justify-between mb-6">
+                    <div className = "flex items-center gap-3">
+                      <Image src = {service.icon} alt = {service.alt} width = {40} height = {40} className = "no-highlight" />
                     </div>
+                    <Link href = {`/services/${service.slug}`} aria-label = {`Ver detalles de ${service.title}`} className = "w-12 h-12 bg-accent rounded-full flex items-center justify-center text-2xl hover:rotate-45 transition-transform focus:outline-none focus:ring-2 focus:ring-accent/60">
+                      <MdOutlineArrowOutward aria-hidden />
+                    </Link>
                   </div>
-                  <h5 className = "text-[22px] font-medium max-w-[240px]">
-                    {service.title}
+                  <h5 className = "text-[22px] font-medium flex flex-col gap-1">
+                      <p className = "font-bold">
+                        {service.title}
+                      </p>
+                      <p className = "text-sm text-white/50 text-justify">
+                        {service.short}
+                      </p>
                   </h5>
                 </div>
               </SwiperSlide>

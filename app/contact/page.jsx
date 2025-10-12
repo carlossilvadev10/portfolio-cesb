@@ -58,7 +58,7 @@ const Contact = () => {
                         <div className = "flex-1 xl:w-[600px] flex flex-col gap-8">
                             <div className = "">
                                 <h2 className = "h2 mb-6 capitalize">
-                                    Ponte en <span className="text-accent">contacto</span>
+                                    Ponte en <span className = "text-accent">contacto</span>
                                 </h2>
                                 <p className = "max-w-[488px] text-justify">
                                     Si buscas impulsar tu proyecto con un desarrollo web sólido y un diseño UX/UI atractivo, me encantaría ayudarte, ya que cuento con experiencia en frontend, backend, full-stack, SEO y producción de contenido,
@@ -142,7 +142,7 @@ const Contact = () => {
                                     </Label>
                                     <Textarea name = "message" id = "message" placeholder = "Escribe tu mensaje aquí..." />
                                 </div>
-                                <div className="flex justify-center w-full">
+                                <div className = "flex justify-center w-full">
                                     <button className = "btn btn-lg btn-accent">
                                         <div className = "flex items-center gap-3">
                                             <span className = "font-medium">Enviar mensaje</span>
