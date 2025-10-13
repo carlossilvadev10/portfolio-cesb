@@ -1,4 +1,4 @@
-# 💼 Portfolio CESB
+# 💼 Portfolio CESB 💻
 
 [![Portfolio CESB](./public/image-preview.png)](https://portfolio-cesb.netlify.app)
 
