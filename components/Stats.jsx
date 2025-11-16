@@ -3,7 +3,7 @@ import CountUp from "react-countup";
 
 const Stats = () => {
     return (
-        <div className = "flex flex-col xl:flex-row xl:items-center gap-8 xl:gap-12">
+        <div className = "flex flex-col md:flex-row md:items-center gap-8 md:gap-12">
             <div className = "flex gap-4">
                 <div className = "text-5xl font-bold text-accent flex">
                     <CountUp end = {2} duration = {5} delay = {2} className = "block w-[40px]" />

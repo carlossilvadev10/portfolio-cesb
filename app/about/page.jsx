@@ -11,6 +11,7 @@ import Info from "@/components/Info";
 import Journey from "@/components/Journey";
 import Skills from "@/components/Skills";
 import Image from "next/image";
+import { FaCode } from "react-icons/fa";
 
 const About = () => {
     return (
@@ -26,19 +27,22 @@ const About = () => {
                         <Socials containerStyles = "flex gap-4 w-max -mt-8 transform z-40" iconStyles = "bg-accent hover:bg-accent-hover text-white transition w-[48px] h-[48px] text-[22px] flex items-center justify-center rounded-full cursor-pointer" />
                     </div>
                     <ScrollArea className = "w-full h-[680px]">
-                        <div className = "">
+                        <div className = "flex flex-col items-center xl:items-start xl:text-left">
                             <div className = "flex items-center gap-3 mb-4">
                                 <div className = "w-2 h-2 bg-accent rounded-full" />
                                 <p>Sobre mí</p>
                             </div>
-                            <h2 className = "h2 mb-6 max-w-[310px] md:max-w-[540px] text-justify">
-                                <span className = "text-accent">Carlos Eduardo</span> Silva Bustamante
-                            </h2>
+                            <div className = "flex flex-col md:flex-row items-center gap-3 text-center mb-6 max-w-[310px] md:max-w-[540px]">
+                                <h2 className = "h2">
+                                    <span className = "text-accent">Carlos Eduardo</span> Silva Bustamante
+                                </h2>
+                                <FaCode className = "text-accent text-5xl md:text-6xl shrink-0" />
+                            </div>
                             <p className = "max-w-[310px] md:max-w-[540px] mb-12 text-justify">
                                 Me apasiona diseñar y desarrollar experiencias web que combinen estética y funcionalidad, ya que cada proyecto es una oportunidad para
                                 transformar ideas en interfaces fluidas, atractivas y pensadas al detalle, logrando que cada interacción sea tan agradable como intuitiva.
                             </p>
-                            <div className = "flex flex-col items-start gap-16">
+                            <div className = "flex flex-col items-center xl:items-start gap-16">
                                 <Stats />
                                 <Testimonial />
                                 <Info />

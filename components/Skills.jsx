@@ -76,7 +76,7 @@ const Skills = () => {
             <h2 className = "h2 mb-8">
                 Mis <span className = "text-accent">Habilidades</span>
             </h2>
-            <div className = "flex flex-wrap gap-6 max-w-sm xl:max-w-none">
+            <div className = "flex flex-wrap gap-6 max-w-lg xl:max-w-none">
                 {
                     skills.map((skill, i) => (
                         <TooltipProvider key = {i}>
