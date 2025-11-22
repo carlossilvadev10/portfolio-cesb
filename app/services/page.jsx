@@ -7,7 +7,7 @@ import { Pagination } from "swiper/modules";
 import { MdOutlineArrowOutward, MdArrowRightAlt } from "react-icons/md"
 import Image from "next/image";
 import Link from "next/link";
-import { services } from "../../lib/services";
+import { services } from "../../lib/data";
 import "swiper/css";
 import "swiper/css/pagination";
 

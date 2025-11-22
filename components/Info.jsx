@@ -3,8 +3,8 @@ import { HiOutlineMail, HiOutlinePhone, HiOutlineUser, HiOutlineLocationMarker }
 
 const Info = () => {
     return (
-        <div className = "flex flex-col gap-6 md:gap-10">
-            <div className = "flex flex-col md:flex-row gap-4">
+        <div className = "flex flex-col gap-6 sm:gap-10">
+            <div className = "flex flex-col sm:flex-row gap-4">
                 <div className = "w-[280px] flex items-start gap-4">
                     <HiOutlineUser className = "text-2xl mt-1 text-accent" />
                     <div className = "">
@@ -20,7 +20,7 @@ const Info = () => {
                     </div>
                 </div>
             </div>
-            <div className = "flex flex-col md:flex-row gap-4">
+            <div className = "flex flex-col sm:flex-row gap-4">
                 <div className = "w-[280px] flex items-start gap-4">
                     <HiOutlinePhone className = "text-2xl mt-1 text-accent" />
                     <div className = "">

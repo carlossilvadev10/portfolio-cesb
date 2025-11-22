@@ -12,6 +12,7 @@ const sometypeMono = Sometype_Mono({
 });
 
 export const metadata = {
+  metadataBase: new URL("http://localhost:3000"),
   title: "Portfolio CESB | Carlos Silva",
   description: "Portafolio personal de Carlos Silva, mostrando proyectos de desarrollo web frontend y full stack con React, Next.js y más.",
 };
@@ -24,7 +25,7 @@ export default function RootLayout({ children }) {
         <RectangleTransition />
         <PageTransition>
           <div className = "flex">
-            <div className = "hidden 2xl:flex w-[285px] h-screen bg-secondary">
+            <div className = "hidden xl:flex w-[285px] h-screen bg-secondary">
               <MainNav />
             </div>
             <div className = "w-full max-w-[1130px] px-[15px] mx-auto">

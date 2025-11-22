@@ -8,46 +8,8 @@ import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@/components/ui/select";
+import { servicesOptions } from "@/lib/data";
 import Image from "next/image";
-
-const services = [
-    {
-        icon: "/assets/services/frontend.svg",
-        alt: "frontend-icon",
-        value: "frontend",
-        label: "Desarrollo frontend",
-    },
-    {
-        icon: "/assets/services/backend.svg",
-        alt: "backend-icon",
-        value: "backend",
-        label: "Desarrollo backend",
-    },
-    {
-        icon: "/assets/services/fullstack.png",
-        alt: "fullstack-icon",
-        value: "fullstack",
-        label: "Desarrollo full stack",
-    },
-    {
-        icon: "/assets/services/design.svg",
-        alt: "design-icon",
-        value: "design",
-        label: "Diseño UX/UI",
-    },
-    {
-        icon: "/assets/services/seo.svg",
-        alt: "seo-icon",
-        value: "seo",
-        label: "Optimización SEO",
-    },
-    {
-        icon: "/assets/services/video.svg",
-        alt: "video-icon",
-        value: "video",
-        label: "Producción de videos",
-    }
-]
 
 const Contact = () => {
     return (
@@ -60,7 +22,7 @@ const Contact = () => {
                                 <h2 className = "h2 mb-6 capitalize">
                                     Ponte en <span className = "text-accent">contacto</span>
                                 </h2>
-                                <p className = "max-w-[488px] text-justify">
+                                <p className = "max-w-max xl:max-w-[488px] text-justify">
                                     Si buscas impulsar tu proyecto con un desarrollo web sólido y un diseño UX/UI atractivo, me encantaría ayudarte, ya que cuento con experiencia en frontend, backend, full-stack, SEO y producción de contenido,
                                     y disfruto creando soluciones prácticas y escalables. Cuéntame en tu mensaje el servicio que necesitas, el alcance y el plazo estimado y trabajaré en una propuesta pensada para que logremos tus objetivos juntos.
                                 </p>
@@ -126,7 +88,7 @@ const Contact = () => {
                                         </SelectTrigger>
                                         <SelectContent>
                                             {
-                                                services.map((service, i) => (
+                                                servicesOptions.map((service, i) => (
                                                     <SelectItem key = {i} value = {service.value}>
                                                         <Image src = {service.icon} alt = {service.alt} width = {20} height = {20} className = "inline-block mr-2" />
                                                         {service.label}

@@ -3,29 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-
-const links = [
-    {
-        name: "Inicio",
-        path: "/",
-    },
-    {
-        name: "Sobre mí",
-        path: "/about",
-    },
-    {
-        name: "Servicios",
-        path: "/services",
-    },
-    {
-        name: "Trabajo",
-        path: "/work",
-    },
-    {
-        name: "Contacto",
-        path: "/contact",
-    }
-]
+import { navLinks } from "@/lib/data";
 
 const NavLinks = ({ containerStyles }) => {
     const pathname = usePathname();
@@ -33,7 +11,7 @@ const NavLinks = ({ containerStyles }) => {
     return (
         <ul className = {containerStyles}>
             {
-                links.map((link, i) => {
+                navLinks.map((link, i) => {
                     const isActive = pathname === link.path; // determine if the current link matches the active route
                     const charLength = link.name.length; // calculate the number of characters in the link name
                     const lineWidth = charLength > 5 ? "after:w-[120%]" : "after:w-[90%]";  // set the line with based on character length

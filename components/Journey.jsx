@@ -1,17 +1,5 @@
 import React from "react";
-
-const journey = [
-    {
-        years: "2024 - presente",
-        profession: "Desarrollador y diseñador web",
-        institution: "Instituto Peruano para el Desarrollo de la Educación, Ciencia, Tecnología e Informática",
-    },
-    {
-        years: "2021 - 2025",
-        profession: "Estudiante | Ingeniería de Sistemas",
-        institution: "Universidad Nacional José Faustino Sánchez Carrión",
-    }
-]
+import { journey } from "@/lib/data";
 
 const Journey = () => {
     return (

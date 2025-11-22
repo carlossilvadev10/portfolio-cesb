@@ -5,33 +5,13 @@ import { ImQuotesLeft } from "react-icons/im";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import { BiLogoLinkedin } from "react-icons/bi";
+import { testimonials } from "@/lib/data";
 import "swiper/css";
 import "swiper/css/pagination";
 
-const testimonials = [
-    {
-        message: "Trabajar con Carlos fue una experiencia muy positiva; supo captar exactamente lo que necesitaba y lo plasmó en un diseño funcional y atractivo.",
-        name: "Jhon Oblitas",
-        profession: "Mobile Developer",
-        linkedin: "https://www.linkedin.com/in/jhon-oblitas/"
-    },
-    {
-        message: "Carlos tiene una gran capacidad para resolver problemas y proponer soluciones creativas; su compromiso con los detalles marca la diferencia.",
-        name: "Rodrigo Trejo",
-        profession: "Full Stack Developer",
-        linkedin: "https://www.linkedin.com/in/rodrigoatldev/"
-    },
-    {
-        message: "Su habilidad para unir estética y funcionalidad en un proyecto es admirable; siempre entrega resultados por encima de lo esperado.",
-        name: "Sergio Quiñones",
-        profession: "Gestión de proyectos",
-        linkedin: "https://www.linkedin.com/in/sergio-luis-qui%C3%B1ones-huapaya-a44239317/"
-    },
-]
-
 const Testimonial = () => {
     return (
-        <Swiper modules = {[ Autoplay ]} loop = {false} autoplay = {{ delay: 4000, disableOnInteraction: false }} className = "w-full max-w-[310px] md:max-w-[540px] bg-secondary rounded-lg">
+        <Swiper modules = {[ Autoplay ]} loop = {false} autoplay = {{ delay: 4000, disableOnInteraction: false }} className = "w-full max-w-[310px] sm:max-w-[540px] bg-secondary rounded-lg">
             {
                 testimonials.map((testimonial, i) => (
                     <SwiperSlide key = {i}>

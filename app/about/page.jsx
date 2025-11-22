@@ -32,13 +32,13 @@ const About = () => {
                                 <div className = "w-2 h-2 bg-accent rounded-full" />
                                 <p>Sobre mí</p>
                             </div>
-                            <div className = "flex flex-col md:flex-row items-center gap-3 text-center mb-6 max-w-[310px] md:max-w-[540px]">
+                            <div className = "flex flex-col sm:flex-row items-center gap-3 text-center mb-6 max-w-[310px] sm:max-w-[540px]">
                                 <h2 className = "h2">
                                     <span className = "text-accent">Carlos Eduardo</span> Silva Bustamante
                                 </h2>
-                                <FaCode className = "text-accent text-5xl md:text-6xl shrink-0" />
+                                <FaCode className = "text-accent text-5xl sm:text-6xl shrink-0" />
                             </div>
-                            <p className = "max-w-[310px] md:max-w-[540px] mb-12 text-justify">
+                            <p className = "max-w-[310px] sm:max-w-[540px] mb-12 text-justify">
                                 Me apasiona diseñar y desarrollar experiencias web que combinen estética y funcionalidad, ya que cada proyecto es una oportunidad para
                                 transformar ideas en interfaces fluidas, atractivas y pensadas al detalle, logrando que cada interacción sea tan agradable como intuitiva.
                             </p>

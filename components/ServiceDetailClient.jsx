@@ -4,6 +4,8 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { FaFileInvoiceDollar } from "react-icons/fa";
+import { HiOutlineExternalLink } from "react-icons/hi";
 
 export default function ServiceDetailClient({ service, workHref }) {
     const containerVariants = {
@@ -17,7 +19,7 @@ export default function ServiceDetailClient({ service, workHref }) {
     };
 
     return (
-        <motion.div initial = "hidden" animate = "show" variants = {containerVariants} className = "flex flex-col lg:flex-row items-center lg:items-start gap-8">
+        <motion.div initial = "hidden" animate = "show" variants = {containerVariants} className = "flex flex-col lg:flex-row items-center lg:items-start gap-8 mt-16 sm:mt-0">
             <motion.div variants = {childVariants} className = "lg:w-1/2 w-full">
                 <div className = {`rounded-xl overflow-hidden shadow-lg ${service.color}`}>
                     {
@@ -44,10 +46,12 @@ export default function ServiceDetailClient({ service, workHref }) {
                     {service.description}
                 </p>
                 <div className = "mt-8 flex flex-col sm:flex-row gap-4">
-                    <Link href = "/contact" className = "btn btn-sm btn-accent">
-                        Solicitar presupuesto
+                    <Link href = "/contact" className = "flex items-center gap-2 btn btn-sm btn-accent">
+                        <FaFileInvoiceDollar className = "text-xl" />
+                        Cotizar servicio
                     </Link>
-                    <Link href = {workHref} className = "btn btn-sm btn-white">
+                    <Link href = {workHref} className = "flex items-center gap-2 btn btn-sm btn-white">
+                        <HiOutlineExternalLink className = "text-xl" />
                         Ver proyectos relacionados
                     </Link>
                 </div>
