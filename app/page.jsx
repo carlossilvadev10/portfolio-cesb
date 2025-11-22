@@ -51,7 +51,7 @@ const page = () => {
         <div className = "hidden xl:block flex-1 relative z-20">
           <Blob containerStyles = "w-[560px] h-[560px]" />
           <Image src = {AvatarImg} alt = "avatar-img" width = {440} height = {600} quality = {100} className = "absolute -top-16 left-[120px] z-30" />
-          <div className = "w-[468px] h-[104px] absolute right-0 bottom-8 left-24 bg-gradient-to-t from-primary via-primary/90 to-primary/40" />
+          <div className = "w-[468px] h-[104px] absolute right-0 bottom-8 left-24 bg-gradient-to-t from-primary via-primary/90 to-primary/40 z-40" />
         </div>
       </div>
     </motion.section>
