@@ -16,9 +16,9 @@ const page = () => {
     <motion.section initial = {{ opacity: 0 }} animate = {{ opacity: 1, transition: { delay: 2.4, duration: 0.4, ease: "easeIn" } }} className = "h-screen flex items-center">
       <Pattern />
       <div className = "flex flex-col xl:flex-row items-center justify-between w-full">
-        <div className = "w-full xl:w-[550px] flex flex-col items-center xl:items-start text-center xl:text-justify">
+        <div className = "w-full xl:w-[560px] flex flex-col items-center xl:items-start text-center xl:text-justify">
           <h1 className = "h1 flex-1 mb-[20px]">
-            Hola! Soy Carlos, <br />
+            ¡Hola! Soy Carlos, <br />
             <div className = "mt-2">
               <TypeAnimation sequence = {["Desarrollador web", 2000, "Diseñador web", 2000]} speed = {40} repeat = {Infinity} cursor = {false} wrapper = "span" className = "text-accent" />
             </div>
